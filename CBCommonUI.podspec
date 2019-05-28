@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "CBCommonUI"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "公共的UI组件库"
 
   s.description  = <<-DESC
@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage     = "https://github.com/chenzbjava/CBCommonUI"
-  s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author             = { "Atom" => "chenzbjava@sian.com" }
+  s.license      = "MIT"
+  s.author       = { "Atom" => "chenzbjava@sian.com" }
 
 
   s.ios.deployment_target = '9.0'
